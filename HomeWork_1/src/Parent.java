@@ -6,12 +6,12 @@ abstract class Parent {
         System.out.println("Parent:static 1");
     }
 
-    static {
-        System.out.println("Parent:static 2");
-    }
-
     {
         System.out.println("Parent:instance 1");
+    }
+
+    static {
+        System.out.println("Parent:static 2");
     }
 
     {
