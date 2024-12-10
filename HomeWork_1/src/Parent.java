@@ -14,12 +14,12 @@ abstract class Parent {
         System.out.println("Parent:static 2");
     }
 
-    {
-        System.out.println("Parent:instance 2");
-    }
-
     public Parent() {
         System.out.println("Parent:constructor");
+    }
+
+    {
+        System.out.println("Parent:instance 2");
     }
 
     public Parent(String name) {
